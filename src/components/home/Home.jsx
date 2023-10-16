@@ -26,7 +26,10 @@ const Home = () => {
         </div>
 
         <div className="home_horizontal">
-            <h6>Quiz</h6>
+            <div className="text_data">
+             <h4>Q </h4><h6>uiz</h6>   
+            </div>
+            
             <div className="component active">
                 <Mock name="UGC" title="University Grant Commission" demo={quiz} />
                 <Mock name="PGT" title="Post Graduate Teacher" demo={quiz} />
@@ -38,7 +41,9 @@ const Home = () => {
         </div>
 
         <div className="home_horizontal">
-            <h6>Mock Test</h6>
+        <div className="text_data">
+             <h4>M</h4><h6>ock Test</h6>   
+            </div>
             <div className="component">
                 <Mock name="UGC" title="University Grant Commission" demo={post}  fetc="Mock-ugc"/>
                 <Mock name="PGC" title="Post Graduate Teacher" demo={under} fetc="Mock-pgc"/>
@@ -46,7 +51,9 @@ const Home = () => {
             </div>
         </div>
         <div className="home_horizontal">
-            <h6>Previous Year Papers</h6>
+        <div className="text_data">
+             <h4>P</h4><h6>revious Year Papers</h6>   
+            </div>
             <div className="component">
                 <Mock name="UGC" title="University Grant Commission" demo={paper}/>
                 <Mock name="PGT" title="Post Graduate Teacher" demo={paper} />
