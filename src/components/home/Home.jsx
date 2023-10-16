@@ -7,6 +7,9 @@ import paper from "../home/mock test/paper.svg";
 import under from "../home/mock test/boy on graduation-pana.svg";
 import post from "../home/mock test/Learning-cuate.svg";
 import quiz from "../home/mock test/quiz.png";
+import QuizRoundedIcon from '@mui/icons-material/QuizRounded';
+import ArticleRoundedIcon from '@mui/icons-material/ArticleRounded';
+import RocketLaunchRoundedIcon from '@mui/icons-material/RocketLaunchRounded';
 
 const Home = () => {
     
@@ -27,7 +30,8 @@ const Home = () => {
 
         <div className="home_horizontal">
             <div className="text_data">
-             <h4>Q </h4><h6>uiz</h6>   
+                <QuizRoundedIcon className='icon'/>
+                <h4>Q </h4><h6>uiz</h6>   
             </div>
             
             <div className="component active">
@@ -42,6 +46,7 @@ const Home = () => {
 
         <div className="home_horizontal">
         <div className="text_data">
+            <ArticleRoundedIcon className='icon'/>
              <h4>M</h4><h6>ock Test</h6>   
             </div>
             <div className="component">
@@ -52,14 +57,13 @@ const Home = () => {
         </div>
         <div className="home_horizontal">
         <div className="text_data">
+            <RocketLaunchRoundedIcon className='icon'/>
              <h4>P</h4><h6>revious Year Papers</h6>   
             </div>
             <div className="component">
                 <Mock name="UGC" title="University Grant Commission" demo={paper}/>
                 <Mock name="PGT" title="Post Graduate Teacher" demo={paper} />
                 <Mock name="TGT" title="Training Graduate Teacher" demo={paper} />
-                <Mock name="Ugc" title="University Grant Commission" demo={paper} />
-                <Mock name="Pgt" title="Post Graduate Teacher" demo={paper} />
             </div>
         </div>
 
