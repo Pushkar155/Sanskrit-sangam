@@ -6,8 +6,8 @@ const Test = () => {
   return (
     <div className='test'>
         <div className="test_navbar">
-            <h6 className='h5'>Unit 1</h6>
-            <h6>Quiz</h6>
+            <h4 className='h5'>Unit 1</h4>
+            <h5>Quiz</h5>
         </div>
         <img src={image} alt="" />
 
