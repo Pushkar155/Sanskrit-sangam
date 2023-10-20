@@ -1,11 +1,13 @@
 import React from 'react'
 import "./mock.scss";
 // import demo from './demo.svg'
-
+// import {NavLink} from "react-router-dom";
+import {useNavigate} from "react-router-dom"
 const Mock = ({name,title,demo,fetc}) => {
+  const navigate = useNavigate();
 
   const handelclick = ()=>{
-    console.log(fetc)
+    navigate("/unit")
   }
 
   return (
