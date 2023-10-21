@@ -2,6 +2,8 @@ import React from 'react'
 import './unit.scss';
 import image from "../home/image.png";
 import Test from './Test/Test';
+import mock from "./test.svg"
+import test from "./quiz.svg"
 import QuizRoundedIcon from '@mui/icons-material/QuizRounded';
 
 const Unit = () => {
@@ -15,20 +17,12 @@ const Unit = () => {
                 <h4>Q </h4><h6>uiz</h6>   
             </div>
         <div className="unit_data">
-            <Test/>
-            <Test/>
-            <Test/>
-            <Test/>
-            <Test/>
-            <Test/>
-            <Test/>
-            <Test/>
-            <Test/>
-            <Test/>
-            <Test/>
-            <Test/>
-            <Test/>
-            <Test/>
+            <Test unit="Unit 1" image={test} type="Quiz"/>
+            <Test unit="Unit 2" image={test} type="Quiz"/>
+            <Test unit="Unit 3" image={test} type="Quiz"/>
+            <Test unit="Unit 4" image={test} type="Quiz"/>
+            <Test unit="Unit 5" image={test} type="Quiz"/>
+            <Test unit="Unit 6" image={test} type="Quiz"/>
         </div>
 
         <div className="text_data">
@@ -36,20 +30,18 @@ const Unit = () => {
                 <h4>M</h4><h6>ock Test</h6>   
             </div>
         <div className="unit_data">
-            <Test/>
-            <Test/>
-            <Test/>
-            <Test/>
-            <Test/>
-            <Test/>
-            <Test/>
-            <Test/>
-            <Test/>
-            <Test/>
-            <Test/>
-            <Test/>
-            <Test/>
-            <Test/>
+            <Test image={mock} unit="Unit 1" type="Mock"/>
+            <Test image={mock} unit="Unit 2" type="Mock"/>
+            <Test image={mock} unit="Unit 3" type="Mock"/>
+            <Test image={mock} unit="Unit 4" type="Mock"/>
+            <Test image={mock} unit="Unit 5" type="Mock"/>
+            <Test image={mock} unit="Unit 6" type="Mock"/>
+            <Test image={mock} unit="Unit 7" type="Mock"/>
+            <Test image={mock} unit="Unit 8" type="Mock"/>
+            <Test image={mock} unit="Unit 9" type="Mock"/>
+            <Test image={mock} unit="Unit 10" type="Mock"/>
+            {/* <Test image={mock} unit="Unit 1" type="Mock"/> */}
+            
         </div>
 
 
