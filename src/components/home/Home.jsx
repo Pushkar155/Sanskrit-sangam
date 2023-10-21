@@ -35,7 +35,7 @@ const Home = () => {
             </div>
             
             <div className="component active">
-                <Mock name="UGC" title="University Grant Commission" demo={quiz} />
+                <Mock name="UGC" title="( University Grant Commission )" demo={quiz} />
                 <Mock name="PGT" title="Post Graduate Teacher" demo={quiz} />
                 <Mock name="TGT" title="Training Graduate Teacher" demo={quiz} />
             </div>
